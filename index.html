@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1360">
+    <!-- 브라우저 뷰포트 너비를 1360px로 고정하여 페이지를 그리도록 설정 -->
+    <title>PORTFLOU</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <!-- Pretendard Variable -->
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
+    <!-- font-family: "Red Rose", serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300..700&display=swap" rel="stylesheet">
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <div class="header_wrap">
+            <div id="header">
+                <h1>
+                    <a href="index.html">
+                        <img src="./images/logo1.svg" alt="logo">
+                    </a>
+                </h1>
+                <ul class="gnb">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Port Shop</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Event</a></li>
+                </ul>
+                <div class="search_bar">
+                    <form action="" method="post">
+                        <input type="text" name="search" id="search" placeholder="검색어를 입력하세요">
+                    </form>
+                </div>
+                <ul class="util">
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Join</a></li>
+                </ul>
+            </div>
+
+            <div id="main_banner">
+                <img src="./images/main_01.png" alt="구름" class="cloud01">
+                <img src="./images/main_02.png" alt="구름" class="cloud02">
+                <div class="inner_main_banner">
+                    <img src="./images/video_frame.png" alt="video_frame">
+                    <video src="./media/video.mp4" width="1320" autoplay muted loop playsinline></video>
+                </div>
+            </div>
+        </div>
+        <div id="section1">
+            <div class="inner_section1">
+                <div class="text_box" data-aos="fade-right" data-aos-duration="1500">
+                    <span>PORTFLOU</span>
+                    <p class="title1">
+                        부산항에서 시작된 신선함
+                        <br>빠르게 전해지는
+                        <br>포트플로유만의 시그니쳐
+                    </p>
+                </div>
+                <div class="img_box">
+                    <div class="swiper banner-swiper" data-aos="fade-left" data-aos-delay="800" data-aos-duration="1500">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <p class="title2">PORT</p>
+                                <p class="title3">COFFEE</p>
+                                <p>
+                                    가장 신선한 원두로 내린 깊은 향과 진한 풍미의 쌉싸름한 시그니쳐 커피
+                                </p>
+                                <img src="./images/coffee_01.png" alt="제품">
+                            </div>
+                            <div class="swiper-slide">
+                                <p class="title2">PORT</p>
+                                <p class="title3">MAYCHA</p>
+                                <p>
+                                    가장 신선한 원두로 내린 깊은 향과 진한 풍미의 쌉싸름한 시그니쳐 커피
+                                </p>
+                                <img src="./images/coffee_02.png" alt="제품">
+                            </div>
+                        </div>
+                        <!-- Swiper 페이징 닷 (선택사항) -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="section2">
+            <h2 data-aos="fade-down" data-aos-duration="1500">Signature</h2>
+            <!-- 슬라이더와 화살표를 묶는 래퍼 추가 -->
+            <div class="slider-wrapper" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                <button class="nav-arrow sig-prev">❮</button>
+
+                <!-- Swiper 구조 적용 -->
+                <div class="swiper signature-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/signature01.png" alt="아메리카노">
+                            <p class="figcaption">아메리카노</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/signature02.png" alt="폼 카페라떼">
+                            <p class="figcaption">폼 카페라떼</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/signature03.png" alt="에스프레소 라떼">
+                            <p class="figcaption">에스프레소 라떼</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/signature04.png" alt="바다 크림 소다">
+                            <p class="figcaption">바다 크림 소다</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/signature05.png" alt="부산 쪽빛 라떼">
+                            <p class="figcaption">부산 쪽빛 라떼</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/signature06.png" alt="구름 바다 우유">
+                            <p class="figcaption">구름 바다 우유</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="nav-arrow sig-next">❯</button>
+            </div>
+            <h2 data-aos="fade-down" data-aos-duration="1500">Dessert</h2>
+            <!-- 슬라이더와 화살표를 묶는 래퍼 추가 -->
+            <div class="slider-wrapper" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                <button class="nav-arrow sig-prev">❮</button>
+
+                <!-- Swiper 구조 적용 -->
+                <div class="swiper dessert-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/dessert01.png" alt="톡톡 바다방울 케이크">
+                            <p class="figcaption">톡톡 바다방울 케이크</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dessert02.png" alt="짙푸른 바다의 전설 케이크">
+                            <p class="figcaption">짙푸른 바다의 전설 케이크</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dessert03.png" alt="물살이 쿠키">
+                            <p class="figcaption">물살이 쿠키</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dessert04.png" alt="블루오션 머치 조각케이크">
+                            <p class="figcaption">블루오션 머치 조각케이크</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/dessert05.png" alt="고등어 샌드위치">
+                            <p class="figcaption">고등어 샌드위치</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="nav-arrow sig-next">❯</button>
+            </div>
+        </div>
+
+        <div id="section3">
+            <div class="about_box" data-aos="fade-right" data-aos-duration="1500">
+                <h3>포트플로유 소개</h3>
+                <h2>About Portflou</h2>
+                <p class="about1">
+                    가장 신선한 원두로 정성껏 로스팅한 커피를 만나보세요.
+                    <br>커피가 흐르는 곳, 포트플로유 입니다.
+                </p>
+                <p class="about2">
+                    대한민국 원두의 90%가 오가는 부산항에서, 포트플로유는 가장 신선한 원두만을 엄선해 공수합니다.
+                    <br>부산항을 통해 빠르게 도착한 원두는 정성스럽게 로스팅되어 손 안에서 바로 즐길 수 있는 최상의 커피로 탄생합니다.
+                    <br>단순히 커피를 제공하는 것을 넘어 달콤한 디저트와 함께 누구나 편안하게 즐길 수 있는 공간과 경험을 선사합니다.
+                    <br>포트플로유만의 특별한 즐거움과 신선함을 만나보세요.
+                </p>
+            </div>
+
+            <div class="section3-tab">
+                <!-- 탭 메뉴 리스트 -->
+                <div class="tab-menu" data-aos="fade-down" data-aos-duration="1500">
+                    <button class="tab-btn active" data-id="panel1">포트폴로유만의 로스팅</button>
+                    <button class="tab-btn" data-id="panel2">푸른살림 경영</button>
+                    <button class="tab-btn" data-id="panel3">부산항과 커피 이야기</button>
+                    <button class="tab-btn" data-id="panel4">기념물건(md)</button>
+                </div>
+                <!-- 탭 콘텐츠 영역 -->
+                <div class="tab-container" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+
+                    <!-- 패널 1 -->
+                    <div id="panel1" class="tab-panel active">
+                        <div class="content-card">
+                            <img src="./images/about_banner01.png" alt="탭 배너1">
+                        </div>
+                    </div>
+                    <!-- 패널 2 -->
+                    <div id="panel2" class="tab-panel">
+                        <div class="content-card">
+                            <img src="./images/about_banner01.png" alt="탭 배너1">
+                        </div>
+                    </div>
+                    <!-- 패널 3 -->
+                    <div id="panel3" class="tab-panel">
+                        <div class="content-card">
+                            <img src="./images/about_banner01.png" alt="탭 배너1">
+                        </div>
+                    </div>
+                    <!-- 패널 4 -->
+                    <div id="panel4" class="tab-panel">
+                        <div class="content-card">
+                            <img src="./images/about_banner01.png" alt="탭 배너1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="section4">
+            <h2  data-aos="fade-down" data-aos-duration="1500">Port Story</h2>
+            <div class="story_box">
+                <div data-aos="fade-right" data-aos-delay="400" data-aos-duration="1000">
+                    <img src="./images/story01.png" alt="Port’s Art">
+                    <h3>Port’s Art</h3>
+                    <a href="#">더보기<img src="./images/arrow_btn.svg" alt="arrow_btn"></a>
+                    <p>포트플로유의 세계를 직접 만나보세요!</p>
+                </div>
+                <div data-aos="fade-left" data-aos-delay="800" data-aos-duration="1000">
+                    <h3>Collection</h3>
+                    <a href="#">더보기<img src="./images/arrow_btn.svg" alt="arrow_btn"></a>
+                    <p>
+                        Port to Flavor, Portfolyou
+                        <br> 달콤한 디저트의 향연
+                    </p>
+                   <video src="./media/video2.mp4" width="600" height="400" autoplay muted loop playsinline></video>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="section5">
+
+            <!-- 왼쪽 아치 슬라이더 (Swiper 적용) -->
+            <div class="swiper-outer" data-aos="fade-right" data-aos-duration="1500">
+                <div class="swiper space_swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/space01.png" alt="space">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/space02.png" alt="space">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/space03.png" alt="space">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/space01.png" alt="space">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 오른쪽 콘텐츠 영역 -->
+            <div class="content-right" data-aos="fade-left" data-aos-delay="400" data-aos-duration="1500">
+                <h2 class="title-our-space">Our Space</h2>
+                <a href="#" class="more-link">더보기<img src="./images/arrow_btn.svg" alt="arrow_btn"></a>
+
+                <!-- 슬라이드 내비게이션 -->
+                <div class="controls-wrapper">
+                    <div class="nav-btn prev-btn"> ❮ </div>
+                    <div class="fraction-pagination">
+                        <span class="curr">01</span> / <span class="total">04</span>
+                    </div>
+                    <div class="nav-btn next-btn"> ❯ </div>
+                </div>
+
+                <!-- 캐릭터 -->
+                <div class="character-floating">
+                    <img src="./images/logo2.svg" alt="캐릭터">
+                </div>
+            </div>
+        </div>
+
+        <div id="section6">
+            <h2 data-aos="fade-down" data-aos-duration="1500">Gooood NEWS</h2>
+            <ul class="news-list">
+                <li data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000"><!-- 1 -->
+                    <div class="image-wrap">
+                        <img src="./images/news01.png" alt="고등어 쿠키">
+                        <div class="overlay">
+                            <span class="more-btn">더보기</span>
+                        </div>
+                    </div>
+                    <div class="content-area">
+                        <p>
+                            [26년 1월 출시]
+                            <br>화제의 고등어 버터 쿠키 고등어쿠키로 새해의 활력을 채워보세요!
+                        </p>
+                    </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000"><!-- 2 -->
+                    <div class="image-wrap">
+                        <img src="./images/news02.png" alt="디저트 케이크">
+                        <div class="overlay">
+                            <span class="more-btn">더보기</span>
+                        </div>
+                    </div>
+                    <div class="content-area">
+                        <p>
+                            [부산 바다 x 포트플로우]
+                            <br>부산을 담아낸 디저트 케이크가 왔어요!
+                        </p>
+                    </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000"><!-- 3 -->
+                    <div class="image-wrap">
+                        <img src="./images/news03.png" alt="아메리카노">
+                        <div class="overlay">
+                            <span class="more-btn">더보기</span>
+                        </div>
+                    </div>
+                    <div class="content-area">
+                        <p>
+                            [2026년 이벤트]
+                            <br>좋은 아침 되세요♥ AM 7~9 아메리카노 1000원 할인
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="section7">
+            <h2 data-aos="fade-down" data-aos-duration="1500">portflou_official </h2>
+            <ul class="sns-list">
+                <li data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                    <img src="./images/insta_01.png" alt="sns">
+                    <div class="overlay_1">
+                        <span class="more-btn1">더보기</span>
+                    </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+                    <img src="./images/insta_02.png" alt="sns">
+                    <div class="overlay_1">
+                        <span class="more-btn1">더보기</span>
+                    </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
+                    <img src="./images/insta_03.png" alt="sns">
+                    <div class="overlay_1">
+                        <span class="more-btn1">더보기</span>
+                    </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
+                    <img src="./images/insta_04.png" alt="sns">
+                    <div class="overlay_1">
+                        <span class="more-btn1">더보기</span>
+                    </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="1200" data-aos-duration="1000">
+                    <img src="./images/insta_05.png" alt="sns">
+                    <div class="overlay_1">
+                        <span class="more-btn1">더보기</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div id="footer">
+            <div class="inner_footer">
+                <div class="footer_list">
+                    <h1>
+                        <a href="#">
+                            <img src="./images/logo3.svg" alt="로고">
+                        </a>
+                    </h1>
+                    <div class="information">
+                        <p>상호 : 포트플로유 | 주소 : 부산 중구  중앙대로26 포트플로유 | 대표 : 최명식  </p>
+                        <p>e-mail : portflou@coffeecafeIn.com | FAX : 02-3333-3333 |  사업자 등록번호 : 521-0333-33333</p>
+                        <p>고객 센터 1500 - 0000 </p>
+                    </div>
+                    <div class="contact">
+                        <a href="#" class="contact_btn">제안하기  |  문의 </a>
+                        <p>FOLLOW PORTFLOU </p>
+                        <ul>
+                            <li><a href="#"><img src="./images/icon_01.png" alt="sns"></a></li>
+                            <li><a href="#"><img src="./images/icon_02.png" alt="sns"></a></li>
+                            <li><a href="#"><img src="./images/icon_03.png" alt="sns"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>2026. PORTFLOU. ALL RIGHTS RESERVED.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ★ 제이쿼리 라이브러리 추가 -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- ★ 슬라이드 라이브러리 추가 -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- AOS 오픈소스 -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- AOS 제어구문 -->
+    <script>
+        AOS.init();
+    </script>
+    <!--  js 제어구문 연결 -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
